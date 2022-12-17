@@ -6,12 +6,12 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     Pause = 1
     basic.setLedColor(0xff0000)
 })
+let Bright = 0
 let Pause = 0
 basic.setLedColor(0x00ff00)
 Pause = 0
 let Steps = 5
 let Speed = 50
-let Bright = 0
 basic.showIcon(IconNames.Heart)
 basic.forever(function () {
     if (Pause == 0) {
